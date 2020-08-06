@@ -200,12 +200,9 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
-  .contactme {
-    flex: 100%;
-    max-width: 100%;
-    display: block;
-    border: black 3px solid;
+  
+  .contactphoto {
+    border-radius: 10px;
   }
 
 }
