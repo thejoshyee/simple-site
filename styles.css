@@ -92,12 +92,12 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 50px;
+  border-bottom: 4px solid rgb(0, 0, 0);
+  border-radius: 20px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #99e7ff;
 }
 
 ul.skills {
@@ -116,6 +116,12 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #f57570;
+}
+
+
+.contactphoto {
+  border-radius: 20px;
+
 }
 
 footer {
@@ -169,10 +175,8 @@ a.social:hover {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
@@ -199,12 +203,5 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
-  }
-  
-  .contactphoto {
-    border-radius: 10px;
-  }
-
+  } 
 }
-
-
